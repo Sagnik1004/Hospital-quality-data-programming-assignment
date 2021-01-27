@@ -124,21 +124,16 @@ best<- function(state, outcome){
 }
 
 best('TX', 'heart attack') #finding best hospital in Texas (TX) for heart attacks. 
-#output received: CYPRESS FAIRBANKS MEDICAL CENTER
 #correct output: "CYPRESS FAIRBANKS MEDICAL CENTER"
 
 best("TX", "heart failure") #finding best hospital in Texas (TX) for heart failure.
-#Output received: HARRIS COUNTY HOSPITAL DISTRICT 
 #Correct output should be[1] "FORT DUNCAN MEDICAL CENTER"
 
 best("MD", "heart attack") #finding best hospital for Maryland(MD) for heart attacks
-#Output received: JOHNS HOPKINS HOSPITAL, THE 
 #Correct output: [1] "JOHNS HOPKINS HOSPITAL, THE"
 
 best("MD", "Pneumonia")
-#Output received: CALVERT MEMORIAL HOSPITAL
 #Correct output should be[1] "GREATER BALTIMORE MEDICAL CENTER"
 
 best("AK", "heart attack") #this is giving correctly giving error as as the state BB doesn't exist
-#Output received: Invalid state 
 #test commit1
